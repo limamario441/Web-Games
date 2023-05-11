@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web-Games</title>
+</head>
+<body>
+      
+    <header>
+        <img class="logo" src="https://i.pinimg.com/originals/89/9c/a4/899ca4f669bc6efedb96354c945dd13c.gif" alt="">
+        <div class="container">  
+           <ul>
+            <li>GAMES</li>
+            <li>LANÇAMENTOS</li>
+            <li>FAZER<span> UNPLOAD</span> </li>
+            <button onclick="abrir()">Cadastro</button>
+           </ul>
+        </div>
+    </header>
+         
+    <div class="corpo">
+        <h2>Extraordinary <br> World of <span><span>G</span>ames!</span> </h2>
+     
+        <form action="https://formsubmit.co/limamario441@gmail.com" method="POST">
+       <input type="text" name="name" required placeholder="Nome">
+       <input type="email" name="email" required placeholder="Email">
+       <textarea placeholder="Sua duvida Digite aqui"></textarea>
+       <button type="submit">ENVIAR</button>
+       <button class="btn" onclick="fechar()" type="button">VOLTAR</button>
+        </form>
+    </div>
+
+    <section>
+        <div caixa>
+            <h1>Virtual World</h1>
+            <p>Aqui você Joga o que você quiser!</p>
+            <img class="foto" src="https://i.pinimg.com/originals/53/64/36/53643689432a9b1c5dbf7392ca7dbf1c.gif" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <p>@Desenvolvido por: MARIO LIMA-2023</p>
+    </footer>
+   
+</body>
+
+<script>
+    function abrir(){
+
+        document.querySelector('form').style.opacity = 1;
+        document.querySelector('').style.opacity = 0.3;
+    }
+
+    function fechar(){
+
+document.querySelector('form').style.opacity = 0;
+document.querySelector('').style.opacity = 0.3;
+}
+</script>
+
+</html>
